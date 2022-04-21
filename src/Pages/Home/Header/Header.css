@@ -1,0 +1,56 @@
+.page-header {
+  border-radius: 15px;
+  background-color: #ffff;
+  box-shadow: 0 15px 25px 0 rgb(0 0 0 / 10%);
+}
+.header-info {
+  background-color: #2eca7f;
+  border-radius: 15px;
+  background-image: url(../../../image/bg.png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+  position: relative;
+}
+.image {
+  margin-bottom: -75px;
+}
+.home-title {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  margin: 30px 0 0;
+  font-family: "Montserrat";
+}
+.sub-title {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.icon-link {
+  color: #9e9e9e;
+  margin: 5px;
+}
+.icon-link:hover {
+  color: #9e9e9e;
+}
+.fab {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  font-size: 20px;
+  line-height: 2;
+  border-radius: 50%;
+}
+.padding {
+  padding: 40px;
+}
+@media screen and (max-width: 576px) {
+  .padding {
+    padding: 10px;
+  }
+}
